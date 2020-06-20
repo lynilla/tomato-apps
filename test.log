@@ -92,3 +92,4 @@ Here's some info
 127.0.0.1 - - [20/Jun/2020 14:35:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 127.0.0.1 - - [20/Jun/2020 14:35:41] "[33mGET /static/mycss.css HTTP/1.1[0m" 404 -
  * Detected change in 'D:\\tomato-apps\\app.py', reloading
+ * Restarting with stat
