@@ -1,15 +1,29 @@
 {% extends "base.html" %}
 
 {% block content %}
+<head>
+  <meta charset="utf-8">
+  <title>Flask Parent Template</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='mycss.css') }}">
+</head>
+<header>
+  <div class="container">
+     <h1 class="logo">Tomato Plant Diseases Classification</h1>
+     <strong>
+        <nav>
+        </nav>
+     </strong>
+  </div>
+</header>
  <div class="container">
-   <h1>Upload File</h1>
+   <h3>Upload File</h3>
    <hr>
    <form class="form-inline" action="{{ url_for('index') }}" method="post" enctype="multipart/form-data">
      <div class="form-group">
        <input type="file" name="file" class="btn btn-default">
      </div>
      <div class="form-group">
-       <input type="submit" value="Upload" class="btn btn-default" style="background-color: aqua;">
+       <input type="submit" value="Upload" class="btn btn-default" style="background-color: rgb(203, 231, 245);">
      </div>
    </form>
  </div>

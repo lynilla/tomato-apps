@@ -93,3 +93,16 @@ Here's some info
 127.0.0.1 - - [20/Jun/2020 14:35:41] "[33mGET /static/mycss.css HTTP/1.1[0m" 404 -
  * Detected change in 'D:\\tomato-apps\\app.py', reloading
  * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 310-283-135
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [20/Jun/2020 14:44:35] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jun/2020 14:44:35] "[33mGET /static/mycss.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Jun/2020 14:44:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2.87764426e-31, 0.0, 7.31021768e-30, 0.0, 1.42765077e-36, 4.52901122e-34, 2.7952798e-28, 0.0, 0.0, 1.0]
+127.0.0.1 - - [20/Jun/2020 14:45:04] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jun/2020 14:45:05] "[33mGET /static/mycss.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Jun/2020 14:45:05] "[37mGET /static/000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL%20Leaf%20259.1.JPG HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jun/2020 14:45:25] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jun/2020 14:45:25] "[33mGET /static/mycss.css HTTP/1.1[0m" 404 -
