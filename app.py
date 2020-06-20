@@ -18,13 +18,14 @@ def index():
         if uploaded_file.filename != '':
             image_path = os.path.join('static', uploaded_file.filename)
             uploaded_file.save(image_path)
-            class_name = model.get_prediction(image_path)
+            rs = model.get_prediction(image_path)
             result = {
-                'class_name': class_name,
+                'class_name': rs["class_name"],
+                'percentage': rs["percentage"],
                 'image_path': image_path,
             }
             return render_template('result.html', result = result)
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0',port=port)
+    app.run(debug=True,host='0.0.0.0',port=port)

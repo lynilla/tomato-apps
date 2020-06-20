@@ -1,13 +1,32 @@
 {% extends "base.html" %}
 
 {% block content %}
+<head>
+  <meta charset="utf-8">
+  <title>Flask Parent Template</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='mycss.css') }}">
+</head>
+<header>
   <div class="container">
-    <h1>Predicted Class: {{ result.class_name }}</h1>
+     <h1 class="logo">Tomato Plant Diseases Classification</h1>
+     <strong>
+        <nav>
+           <ul class="menu">
+              <li><a href="#">Home</a></li>
+           </ul>
+        </nav>
+     </strong>
+  </div>
+</header>
+  <div class="container">
+    <h3>Predicted Class: {{ result.class_name }} ({{result.percentage}})</h3>
+    <h4>Predicted Class: {{ '%0.2f'|format(result.percentage|float) }}</h4>
+
     <hr>
     <div>
       <img src="{{ result.image_path }}" class="img-rounded" width="400" height="200">
     </div>
-    <a href="{{ url_for('index') }}" class="btn btn-default">Back</a>
+    <a href="{{ url_for('index') }}" class="btn btn-default" style="background-color: rgb(203, 231, 245);">Back</a>
   </div>
 
 {% endblock %}
