@@ -11,9 +11,9 @@ SIZE=256
 MODEL_URI='https://tomato-densenet.herokuapp.com/v1/models/tomato_densenet:predict'
 CLASSES = ["Bacterial Spot","Early Blight","Late Blight","Leaf Mold","Septoria Leaf Spot","Spider Mites","Target Spot","Yellow Leaf Curl Virus","Mosaic Virus","Healthy"]
 
-logger = logging.getLogger('werkzeug') # grabs underlying WSGI logger
-handler = logging.FileHandler('test.log') # creates handler for the log file
-logger.addHandler(handler) # adds handler to the werkzeug WSGI logger
+# logger = logging.getLogger('werkzeug') # grabs underlying WSGI logger
+# handler = logging.FileHandler('test.log') # creates handler for the log file
+# logger.addHandler(handler) # adds handler to the werkzeug WSGI logger
 
 def get_prediction(image_path):    
     image =  np.array(Image.open(image_path).resize((SIZE,SIZE)))    
@@ -31,7 +31,7 @@ def get_prediction(image_path):
     # print(response.json())
     result = json.loads(response.text)
     predictionList = result['predictions'][0]
-    logger.info(result['predictions'][0])
+    # logger.info(result['predictions'][0])
     predictionIdx = predictionList.index(max(predictionList))
     return {"class_name":CLASSES[predictionIdx] , "percentage":max(predictionList)}
 
