@@ -48,7 +48,7 @@ def index():
 
             tomato_ref.document().set({'percentage': percentage, 'predict_class': predict_class,
                                        'file_path': filename_data_save, 'timestamp': str(datetime.timestamp(now_timestamp))})
-
+       
             return render_template('result.html', result=result)
 
     query = tomato_ref.order_by(
@@ -59,7 +59,7 @@ def index():
 
     for doc in results:
         data_dict_history[doc.get('timestamp')] = [doc.get(
-            'file_path'), doc.get('predict_class'), doc.id]
+            'file_path'), doc.get('predict_class'), doc.id,doc.get('percentage')]
 
     return render_template('index.html', result_dict=data_dict_history)
 
@@ -71,8 +71,30 @@ def predict():
 
 @app.route('/mini_encyclopedia/<topics>', methods=['GET'])
 def encyclopedia(topics):
-    print(topics)
-    return "ok"
+    if topics == 'SpiderMites':
+        return render_template('encylopedia_spidermites.html')
+    elif topics == 'BacterialSpot':
+        return render_template('encylopedia_bacterialspot.html')
+    elif topics == 'EarlyBlight':
+        return render_template('encylopedia_earlyblight.html')
+    elif topics == 'YellowLeafCurlVirus':
+        return render_template('encylopedia_yellowleafcurlvirus.html')
+    elif topics == 'LateBlight':
+        return render_template('encylopedia_lateblight.html')
+    elif topics == 'LeafMold':
+        return render_template('encylopedia_leafmold.html')
+    elif topics == 'SeptoriaLeafSpot':
+        return render_template('encylopedia_septorialeafspot.html')
+    elif topics == 'TargetSpot':
+        return render_template('encylopedia_targetspot.html')
+    elif topics == 'MosaicVirus':
+        return render_template('encylopedia_mosaicvirus.html')
+    elif topics == 'Healthy':
+        return render_template('encylopedia_healthy.html')
+    elif topics == 'General':
+        return render_template('encylopedia.html')
+    else:
+        return 'request cannot be handled'
 
 
 @app.route('/report/<id>', methods=['GET'])

@@ -1,3 +1,4 @@
 test.txt
 *.jpg
 bangkit-finalproject-firebase-adminsdk-v8dc7-218c11fe14.json
+__pycache__/*

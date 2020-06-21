@@ -106,3 +106,374 @@ Here's some info
 127.0.0.1 - - [20/Jun/2020 14:45:05] "[37mGET /static/000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL%20Leaf%20259.1.JPG HTTP/1.1[0m" 200 -
 127.0.0.1 - - [20/Jun/2020 14:45:25] "[37mGET / HTTP/1.1[0m" 200 -
 127.0.0.1 - - [20/Jun/2020 14:45:25] "[33mGET /static/mycss.css HTTP/1.1[0m" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 12:40:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+127.0.0.1 - - [21/Jun/2020 12:40:29] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:30] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:30] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:30] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:30] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:31] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:52] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:52] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:40:52] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:41:15] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:41:15] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:41:15] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:42:29] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:42:29] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:42:29] "[36mGET /static/styles/offcanvas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [21/Jun/2020 12:42:59] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:42:59] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:42:59] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:43:08] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:43:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2.81511657e-30, 1.75191304e-35, 2.47645685e-32, 0.0, 1.0, 0.0, 2.05272316e-27, 0.0, 8.12294649e-36, 1.3220616e-33]
+127.0.0.1 - - [21/Jun/2020 12:44:25] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:44:25] "[37mGET /static/leaf_septo.JPG HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:45:09] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:45:16] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:45:16] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:45:16] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:45:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 12:51:46] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:51:46] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:51:46] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:52:06] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:52:06] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:52:06] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:52:30] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:52:30] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:54:58] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:54:58] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:54:58] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:56:04] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:56:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2.98573e-17, 0.999999881, 2.56731737e-11, 1.81620056e-18, 8.33678442e-08, 3.15406528e-24, 5.68272e-16, 6.04512518e-21, 9.42014127e-17, 8.63606867e-17]
+127.0.0.1 - - [21/Jun/2020 12:56:33] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:56:34] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:56:34] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:56:34] "[37mGET /static/target_spot_img_3478a_sml.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:57:47] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 12:57:51] "[37mGET /predict HTTP/1.1[0m" 200 -
+[1.65022934e-25, 1.32386394e-17, 3.0870215e-19, 1.20169415e-20, 6.22179304e-19, 1.7806252e-09, 1.0, 7.36105941e-31, 6.64012802e-15, 2.00830116e-10]
+127.0.0.1 - - [21/Jun/2020 13:03:56] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+127.0.0.1 - - [21/Jun/2020 13:03:58] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:03:58] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:03:58] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:03:59] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:03:59] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:03:59] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 13:06:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[1.74312294e-32, 3.67776716e-25, 3.21772551e-22, 7.87612614e-28, 6.91827e-23, 5.51757484e-09, 1.0, 6.48226452e-34, 3.35642338e-16, 4.88094107e-16]
+127.0.0.1 - - [21/Jun/2020 13:09:30] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+127.0.0.1 - - [21/Jun/2020 13:09:31] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:09:31] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:09:31] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:09:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:09:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:15:01] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:15:01] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:15:01] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:15:24] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:15:24] "[36mGET /static/styles/mycss.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [21/Jun/2020 13:15:24] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:15:28] "[37mGET /predict HTTP/1.1[0m" 200 -
+[2.17033321e-35, 5.23003474e-32, 2.19907275e-31, 5.79079962e-32, 0.0, 1.78219766e-36, 2.16716066e-31, 1.0, 8.3727612e-32, 0.0]
+127.0.0.1 - - [21/Jun/2020 13:16:48] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+127.0.0.1 - - [21/Jun/2020 13:16:50] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:16:50] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:16:50] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:16:50] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:16:50] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:17:44] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:17:44] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:17:59] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:17:59] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:17:59] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+[1.7313094e-23, 1.41602098e-16, 2.69163057e-15, 1.05996572e-21, 7.35102344e-22, 0.999558151, 0.000441822165, 2.1692645e-22, 6.17394323e-19, 1.52301477e-10]
+127.0.0.1 - - [21/Jun/2020 13:19:47] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:19:47] "[37mGET /static/0a7714a4-530b-49e0-821f-be8d33c588ac___Com.G_SpM_FL%201775_180deg.JPG HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:19:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 13:20:02] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:20:06] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:20:17] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:20:17] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:20:17] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:20:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 13:20:25] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:20:25] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:20:25] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 13:22:11] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:22:11] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:22:11] "[36mGET /static/styles/offcanvas.css HTTP/1.1[0m" 304 -
+[1.79836084e-23, 3.64684022e-23, 2.62394445e-17, 2.74357017e-19, 1.45947775e-22, 1.0, 4.99716674e-12, 5.45867068e-21, 9.56140469e-18, 1.13953096e-12]
+127.0.0.1 - - [21/Jun/2020 13:23:43] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:23:43] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:23:43] "[37mGET /static/0eead1ad-106f-4bb7-8e9e-4ed03cdeb7ab___Com.G_SpM_FL%201319.JPG HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:23:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 13:24:34] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:24:34] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:24:34] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:24:47] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:24:52] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 13:32:56] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:32:57] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:32:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 13:35:41] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:35:41] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:35:41] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:35:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 13:37:00] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:37:00] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:37:00] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:37:19] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:37:19] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:37:43] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:37:43] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:37:43] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:38:26] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:38:26] "[36mGET /static/styles/offcanvas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [21/Jun/2020 13:38:26] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:38:47] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:38:48] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:38:48] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:39:16] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:39:16] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:39:16] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:42:28] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:42:28] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:42:28] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:59:54] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:59:54] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 13:59:54] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:01] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:01] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:01] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:28] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:28] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:28] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:44] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:44] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:44] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:56] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:56] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:08:56] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:22:18] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 14:23:00] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:23:00] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:23:00] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:23:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[1.0, 5.76636067e-22, 3.736918e-13, 9.72016573e-33, 4.76397665e-19, 2.67050951e-30, 1.17462468e-17, 1.90909886e-26, 1.36076633e-38, 2.84965739e-31]
+127.0.0.1 - - [21/Jun/2020 14:24:38] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:24:38] "[37mGET /static/0ad88d7a-c14a-4ac9-8520-c11a0ade3a8f___UF.GRC_BS_Lab%20Leaf%200996.JPG HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:24:53] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:24:54] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:24:58] "[37mGET /mini_encyclopedia/BacterialSpot HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 14:25:14] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:25:14] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:25:14] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 14:34:12] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:12] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:21] "[37mGET /mini_encyclopedia/BacterialSpot HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:21] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:21] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:40] "[37mGET /mini_encyclopedia/BacterialSpot HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:40] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 14:34:49] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:34:49] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+[3.16779697e-13, 0.00707190391, 0.89506948, 1.86149449e-14, 0.0978586748, 7.45507917e-14, 1.21650079e-09, 4.731089e-21, 1.56637371e-13, 4.39332815e-14]
+127.0.0.1 - - [21/Jun/2020 14:36:10] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:36:11] "[37mGET /static/0bd357fe-1e54-4c65-979c-e894e0b8a3aa___RS_Erly.B%208328.JPG HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:36:11] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:36:59] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:37:04] "[37mGET /mini_encyclopedia/LateBlight HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:37:29] "[37mGET /mini_encyclopedia/SpiderMites HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:37:29] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:37:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 14:37:37] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:37:37] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:37:37] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:37:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [21/Jun/2020 14:37:40] "[37mGET /predict HTTP/1.1[0m" 200 -
+[3.61777038e-23, 1.0, 3.89144062e-16, 3.26790522e-18, 4.20595906e-19, 6.62242242e-22, 2.08665225e-12, 3.27198334e-26, 4.81380924e-20, 1.17938403e-17]
+127.0.0.1 - - [21/Jun/2020 14:39:15] "[37mPOST / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:39:15] "[37mGET /static/4c524fa6-db92-41e1-8d32-84732f78343f___RS_Erly.B%207768.JPG HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:39:19] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:39:19] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 14:39:20] "[37mGET /mini_encyclopedia/EarlyBlight HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 15:57:27] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 15:57:27] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 15:57:33] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 16:12:32] "[35m[1mGET /mini_encyclopedia/YellowLeafCurlVirus HTTP/1.1[0m" 500 -
+127.0.0.1 - - [21/Jun/2020 16:12:34] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:34] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:35] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:35] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:35] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:35] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 16:12:54] "[37mGET /mini_encyclopedia/YellowLeafCurlVirus HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:55] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:55] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 16:12:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\jibri\\Documents\\Cods\\tomato-apps\\app.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 241-878-861
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Jun/2020 17:00:41] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:00:41] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:00:44] "[37mGET /mini_encyclopedia/General HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:03:43] "[37mGET /mini_encyclopedia/General HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:03:43] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:07:59] "[37mGET /mini_encyclopedia/General HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:08:00] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:08:00] "[37mGET /static/styles/offcanvas.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:36] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:39] "[37mGET /report/jrzbmgiU4wHUP5ehMsPP HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:45] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:46] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:49] "[37mGET /mini_encyclopedia/General HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:49] "[37mGET /static/styles/mycss.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:50] "[37mGET /mini_encyclopedia/Healthy HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:55] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:56] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:57] "[37mGET /predict HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:13:59] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [21/Jun/2020 17:14:00] "[37mGET /mini_encyclopedia/General HTTP/1.1[0m" 200 -

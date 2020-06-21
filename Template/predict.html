@@ -3,6 +3,7 @@
 
 {% block content %}
 {% include "menu.html" %}
+    
 <header>
     <div class="container">
         <h1 class="logo">Tomato Plant Diseases Classification</h1>
@@ -13,7 +14,8 @@
     </div>
 </header>
 <div class="container">
-    <h3>Upload File</h3>
+    <h3>Upload your image</h3>
+    <small>Capture the leaf and upload here to check your tomato plants condition</small>
     <hr>
     <form class="form-inline" action="{{ url_for('index') }}" method="post" enctype="multipart/form-data">
         <div class="form-group">
