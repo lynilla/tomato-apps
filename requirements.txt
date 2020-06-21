@@ -1,6 +1,8 @@
 flask
 flask_restful
 flask_bootstrap
+flask_bootstrap4
+firebase-admin
 Pillow
 numpy
 requests

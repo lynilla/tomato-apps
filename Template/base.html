@@ -1,5 +1,38 @@
 {% extends "bootstrap/base.html" %}
 
-{% block title %}TOMATO{% endblock %}
+{% block title %}Tomato Leaf Diseases Detector{% endblock %}
 
-{% block content %}{% endblock %}
+{% block head %}
+
+{{ super() }}
+
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+</style>
+
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/mycss.css') }}">
+
+<link href="{{ url_for('static',filename='styles/offcanvas.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+{% endblock %}
+
+{% block content %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"
+    integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
+
+{% endblock %}

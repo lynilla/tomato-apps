@@ -1,31 +1,43 @@
 {% extends "base.html" %}
 
+
 {% block content %}
-<head>
-  <meta charset="utf-8">
-  <title>Flask Parent Template</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='mycss.css') }}">
-</head>
-<header>
-  <div class="container">
-     <h1 class="logo">Tomato Plant Diseases Classification</h1>
-     <strong>
-        <nav>
-        </nav>
-     </strong>
+{% include "menu.html" %}
+
+<main role="main" class="container">
+  <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-blue rounded shadow-sm">
+    <div class="lh-100">
+      <h6 class="mb-0 text-white lh-100">Tomato disesase detector</h6>
+      <small>check your tomato plants :)</small>
+    </div>
   </div>
-</header>
- <div class="container">
-   <h3>Upload File</h3>
-   <hr>
-   <form class="form-inline" action="{{ url_for('index') }}" method="post" enctype="multipart/form-data">
-     <div class="form-group">
-       <input type="file" name="file" class="btn btn-default">
-     </div>
-     <div class="form-group">
-       <input type="submit" value="Upload" class="btn btn-default" style="background-color: rgb(203, 231, 245);">
-     </div>
-   </form>
- </div>
+
+  <div class="my-3 p-3 bg-white rounded shadow-sm">
+    <h6 class="border-bottom border-gray pb-2 mb-0">Recent upload</h6>
+
+    {%  for res in result_dict %}
+    <div class="media text-muted pt-3">
+      <!-- <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg> -->
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+        {% if (result_dict[res][1] == 'Healthy') %}
+        <strong class="d-block text-gray-dark"><a href="{{ result_dict[res][0] }}" target="_blank">Healthy plant ( {{ ('%0.2f'|format(result_dict[res][3]*100|float)) }}% )
+          </a> | <a href="{{ url_for('report',id=result_dict[res][2]) }}"> <i class="fa fa-flag" aria-hidden="true"></i>
+            Report a problem</a>
+        </strong>
+        {% else %}
+        <strong class="d-block text-gray-dark"><a href="{{ result_dict[res][0] }}" target="_blank">Disesase
+            prediction is: {{ result_dict[res][1] }} ( {{ ('%0.2f'|format(result_dict[res][3]*100|float)) }}% )</a> | <a href="{{ url_for('report',id=result_dict[res][2]) }}"> <i
+              class="fa fa-flag" aria-hidden="true"></i> Report a problem</a></strong>
+        {% endif %}
+
+      <p> <a href="{{ url_for('encyclopedia',topics=result_dict[res][1].replace(' ','')) }}" type="button"
+          class="btn btn-primary">View detail >></a> </p>
+      </p>
+    </div>
+
+
+    {% endfor %}
+
+</main>
 
 {% endblock %}
