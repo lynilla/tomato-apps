@@ -13,10 +13,11 @@ Using dataset https://www.kaggle.com/noulam/tomato
 
 ## Model
 
-You can download this model here
 ![](1_pic_accuracy_res.png)
+
 ![](2_pic_loss_res.png)
 
+You can download this model here
 ```
 https://drive.google.com/file/d/1f1MKTJ627s5-qNmGhAIHNV4VzQu9NbTZ/view?usp=sharing
 ```
