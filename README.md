@@ -1,5 +1,5 @@
 # Bangk!t Final Project - Tomato Diseases Detector
-https://tomato-apps.herokuapp.com
+https://tomato-diseases-app.herokuapp.com/
 > Teams:
 >   - Alvin Senjaya
 >   - Jibril Hartri Putra
