@@ -31,3 +31,18 @@ Available to using mobile version, you can download it with this link
 https://drive.google.com/file/d/1xljg3s_E9M50pNnVS98mLoO6LDKZy6Gm/view?usp=sharing
 ```
 
+## How to replicate
+
+1. Clone the repository
+
+```
+git clone <this repositories>
+git clone https://github.com/lynilla/tomato-apps.git
+```
+
+2. Setup the model URL
+
+On model.py set MODEL_URI
+
+3. Push to heroku or gcp 
+
